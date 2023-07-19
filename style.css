@@ -4,26 +4,42 @@
 *{
     margin: 0;
     padding: 0;
-  @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Playfair+Display:wght@400;600;800&family=Work+Sans:wght@400;600;700&display=swap');
     font-family: 'Work Sans', sans-serif;
+}
+/* universal section */
+p{
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+}
+.btn{
+    padding: 1.25rem 2.5rem;
+    align-items: flex-start;
+    gap: .625rem;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    margin-top: 2.5rem;
+    cursor: pointer;
 }
 /* navigation bar */
 nav{
     display: flex;
     justify-content: space-around;
-    padding: 37px 0;
+    padding: 2.3rem 0;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }   
 .nav-logo{
     display: flex;
 }
 .nav-logo img{
-    width: 86.041px;
-    height: 40px;
-    padding-right: 17px;
+    width: 5.38rem;
+    height: 2.5rem;
+    padding-right: 1rem;
 }
 .nav-heading{
-    font-size: 45px;
+    font-size: 2.81rem;
     font-weight: 700;
     margin-top: -4px;
 } 
@@ -53,9 +69,13 @@ nav{
     margin-left: 2rem;
     padding: 1.12rem 1.5rem;
 }
+.nav-text a{
+    text-decoration: none;
+}
 .logo{
-    margin: auto 0;
-    padding: 0 1.5rem 0 .7rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    padding: 0 1.5rem 0 .7rem 0;
 }
 /* banner section */
 .banner{
@@ -63,12 +83,109 @@ nav{
     justify-content: space-around;
     width: 100vw;
     height: 700px;
+    background-image: url(Group\ 14.png);
+    background-repeat: no-repeat;
+    position: left;
 }
 .banner-title{
     display: flex;
     align-items: center;
-    background-image: url(Group\ 14.png);
+}
+.banner-title h3{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+.banner-title h1{
+    font-size: 5.75rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-title p{
+    margin-left: .5rem;
    
-
+}
+.one{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin: 0 1.5rem 0 .5rem;
+}
+.two{
+    background: #4EC5F7;
+}
+.banner-img img{
+   margin-top: 1.1rem;
+}
+/* gamer section */
+.gamer{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 3.5rem 0;
+}
+.gamer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+}
+.gamer-title h3{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 700;
+}.gamer-title p{
+    margin: 2rem 0;
+}
+.gamer-title h4{
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: -1rem;
+}
+/* online section */
+.online{
+    padding: 7.5rem 0;
+}
+.online-title{
+    text-align: center;
+}
+.online-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card img{
+    width: 21.38rem;
+    height: 25rem;
+    margin: 3rem 0.75rem 1.25rem 0.75rem;
+}.card img:hover{
+    
+}
+.card p{
+    margin: 0 0 .5rem 0.75rem;
+}
+/* play section */
+.play{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* option section */
+.options{
+    display: flex;
+    justify-content: center;
    
+    flex-wrap: wrap;
+}
+.option{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3rem;
+    padding: 1.25rem 2.5rem;
 }
