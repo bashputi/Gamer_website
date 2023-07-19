@@ -169,8 +169,11 @@ span{
     width: 21.38rem;
     height: 25rem;
     margin: 3rem 0.75rem 1.25rem 0.75rem;
-}.card img:hover{
-
+    border-radius: 1rem;
+}
+/* hover part */
+.card img:hover{
+    border: 3px solid rgb(246, 40, 153);
 }
 .card p{
     margin: 0 0 .5rem 0.75rem;
@@ -208,13 +211,12 @@ span{
     margin-top: 1.5rem;
 }
 /* option section */
-.options{
+.option-box{
     display: flex;
     justify-content: center;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     flex-wrap: wrap;
-    padding: 7.5rem 0;
-
+    padding: 7.5rem 10rem;
 }
 .option{
     display: flex;
@@ -222,6 +224,7 @@ span{
     padding: .5rem;
     background-color: #fff;
     border-radius: 50px;
+    margin: .5rem;
 }
 .option:hover{
     border: 1px solid rgb(246, 40, 153);
@@ -286,4 +289,8 @@ span{
 }
 .footer-icon img{
     padding: 3rem 1.5rem 2rem 1.7rem;
+    cursor: pointer;
+}
+.footer-icon img:hover{
+    width: 2rem;
 }
