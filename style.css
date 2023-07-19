@@ -6,6 +6,9 @@
     padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    max-width: 100%;
+}
 /* universal section */
 p{
     color: #534C64;
@@ -95,7 +98,7 @@ span{
 .banner{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 99vw;
     height: 700px;
     background-image: url(Group\ 14.png);
     background-repeat: no-repeat;
@@ -208,13 +211,79 @@ span{
 .options{
     display: flex;
     justify-content: center;
-   
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     flex-wrap: wrap;
+    padding: 7.5rem 0;
+
 }
 .option{
     display: flex;
     align-items: center;
-    border: 1px solid black;
-    border-radius: 3rem;
-    padding: 1.25rem 2.5rem;
+    padding: .5rem;
+    background-color: #fff;
+    border-radius: 50px;
+}
+.option:hover{
+    border: 1px solid rgb(246, 40, 153);
+}
+.option h4{
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 0 .7rem;
+}
+.option h4:hover{
+    color: rgb(246, 40, 153);
+}
+/* footer section */
+.footer{
+    background-color: #0B0223;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.footer-logo{
+   margin: 0 auto;
+   display: inline-block;
+   margin-top: 7.5rem;
+}
+.df{
+    color: white;
+}
+.footer-about{
+    margin-top: 4rem;
+}
+.footer-about a{
+    text-decoration: none;
+    color: white;
+    margin: 0 3.75rem;
+}
+.footer-about li{
+    list-style: none;
+}
+.footer-about ul{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.footer-text a{
+    text-decoration: none;
+    color: white;
+    margin: 0 3.75rem;
+}
+.footer-text li{
+    list-style: none;
+}
+.footer-text ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.copy{
+    color: white;
+    text-align: center;
+    margin: 3rem 0 8.12rem 0;
+}
+.footer-icon img{
+    padding: 3rem 1.5rem 2rem 1.7rem;
 }
