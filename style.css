@@ -268,7 +268,7 @@ span{
 .footer-logo{
   display: inline-block;
   margin: 0 auto;
-  margin-top: 3rem;
+  margin-top: 7rem;
 }
 .df{
     color: white;
@@ -314,15 +314,13 @@ span{
 .footer-icon img:hover{
     width: 2rem;
 }
-
-
 /* mobile resposibe */
-/*
+
 @media (max-width: 425px) {
-    .banerimg .gamer-img .opt-img{
+    .banerimg, .gamer-img, .opt-img{
      width: 350px;
     }
-    nav .nav-text .gamer .play{
+    nav, .nav-text, .gamer, .play{
      flex-direction: column;
     }
     .nav-logo{
@@ -331,6 +329,7 @@ span{
     }
     .nav-text-div{
      margin-bottom: 30px;
+     margin-left: -40px;
     }
     .banner{
      flex-direction: column-reverse;
@@ -357,6 +356,7 @@ span{
    
     .banner-title h1{
      font-size: 2.75rem;
+     margin-bottom: 20px;
     }
     .gamer-title h4{
         font-size: 20px;
@@ -365,9 +365,15 @@ span{
         max-width: 250px;
         max-height: 240px;
     }
-    h3{
-        font-size: 24px;
-        }
+   .play-title h3{
+    padding-left: 50px;
+   }
+    .play-title p{
+        margin-left: 50px;
+       }
+    .online{
+        margin-bottom: 30px;
+    }
     #play-img-two{
         max-width: 130px;
         max-height: 120px;
@@ -377,16 +383,58 @@ span{
     .option-box{
         padding: 0;
     }
-    .footer-about a{
-        margin: 0 1rem;
-        padding-bottom: 150px;
+    .footer-about li{
+        margin: 0 ;
+        padding-bottom: 20px;
     }
-    .card p{
+    .container p{
         text-align: center;
     }
     .card img{
         width: 16rem;
         height: 20rem;
+    }
+    .text{
+        margin-left: 80px;
+        margin-top: 170px;
+    }
+    .option h4{
+        font-size: 10px;
+    }
+    .option img{
+        width: 30px;
+    }
+    .option{
+        margin: 4px;
+        padding: 4px;
+    }
+    .footer-icon img{
+        padding: 2rem 1.6rem .5rem 2rem;
+    }
+    .footer-icon{
+        margin-bottom: 20px;
+    }
+    .footer-text li{
+        margin-bottom: 20px;
+    }
+    .footer-about{
+        margin-top: 1rem;
+    }
+    .footer-about a{
+        margin: 0 20px;
+    }
+    .copy{
+        margin: 1.5rem 0 3.12rem 0;  
+    }
+    .footer-logo{
+        margin-top: 2.5rem;
+        margin-left: -80px;
+    }
+    .logo-icon{
+        margin-left: -22px;
+    }
+    .footer{
+        margin-top: 20px;
     }
     }
  */
