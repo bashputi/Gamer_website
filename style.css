@@ -333,11 +333,11 @@ span{
     }
     .banner{
      flex-direction: column-reverse;
-     width: 400px;
+     width: 425px;
     }
     .banner-title{
      text-align: center;
-     padding-left: 80px;
+     padding-left: 60px;
     }
     .gamer-title{
      text-align: center;
@@ -437,78 +437,123 @@ span{
         margin-top: 20px;
     }
     }
- */
  /* tablet responsive */
- /*
- @media  screen and (min-width:426px) {
+ 
+ @media  screen and (min-width: 426px) and (max-width: 768px){
      .banerimg, .gamer-img, .opt-img{
-      max-width: 350px;
+      max-width: 700px;
      }
      nav, .nav-text, .gamer, .play{
       flex-direction: column;
      }
      .nav-logo{
-      padding-left: 90px;
-      margin-bottom: 30px;
+      padding-left: 150px;
+      margin-bottom: 50px;
      }
      .nav-text-div{
-      margin-bottom: 30px;
+      margin-bottom: 40px;
      }
      .banner{
       flex-direction: column-reverse;
-      max-width: 400px;
+      max-width: 768px;
      }
      .banner-title{
       text-align: center;
-      padding-left: 80px;
+      margin: 40px auto;
      }
      .gamer-title{
       text-align: center;
-     
      }
      .banerimg, .gamer-img{
       padding-left: 30px;
+      margin-top: 60px;
      }
      .btn{
-      padding: .7rem 1rem;
+      padding: 1.5rem 2rem;
      }
      p{
-      font-size: 12px;
-      line-height: 15px;
+      font-size: 15px;
+      line-height: 16px;
      }
     
      .banner-title h1{
-      font-size: 2.75rem;
-  }
-  .gamer-title h4{
-      font-size: 20px;
-  }
-  #play-img-one{
-      max-width: 250px;
-      max-height: 240px;
-  }
-  h3{
-      font-size: 24px;
-     }
-  #play-img-two{
-      max-width: 130px;
-      max-height: 120px;
-      margin-top: 190px;
-      margin-left: -50px;
-  }
-  .option-box{
-      padding: 0;
-  }
-  .footer-about a{
-      margin: 0 1rem;
+      font-size: 4.5rem;
+    }
+    .gamer-title h4{
+      font-size: 26px;
+    }
+    #play-img-one{
+      max-width: 450px;
+      max-height: 440px;
+    }
+    .text{
+            margin-left: 80px;
+            margin-top: 170px; 
+    }
+    .container p{
+        width: 10rem;
+    }
+    #play-img-two{
+      max-width: 290px;
+      max-height: 280px;
+      margin-top: 300px;
+      margin-left: -120px;
+    }
+    .option-box{
+      padding: 8px;
+    }
+    .option h4{
+        font-size: 15px;
+    }
+    .footer-about a{
+      margin: 0 1.5rem;
       padding-bottom: 150px;
-  }
-  .card p{
+    }
+    .card p{
       text-align: center;
-  }
-  .card img{
+    }
+     .card img{
       width: 16rem;
       height: 20rem;
-  }
-  }
-    */
+    }
+    .footer-about{
+        margin-top: 1rem;
+    }
+    .footer-about a{
+        margin: 0 20px;
+    }
+    .copy{
+        margin: 1.5rem 0 3.12rem 0;  
+    }
+    .footer-logo{
+        margin-top: 2.5rem;
+        margin-left: -80px;
+    }
+    .logo-icon{
+        margin-left: -22px;
+    }
+    .footer{
+        margin-top: 20px;
+    }
+    nav{
+        margin-bottom: 200px;
+    }
+    .nav-logo{
+        margin-left: 130px;
+    }
+    .nav-text-div{
+        margin-left: -30px;
+    }
+    .banner{
+        margin-bottom: 100px;
+    }
+    .gamer{
+        padding-top: 120px;
+        margin-top: -100px;
+    }
+    .footer-logo{
+        margin-right: 200px;
+    }
+
+    }
+    
